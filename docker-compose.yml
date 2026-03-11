@@ -13,6 +13,7 @@ services:
     # Or build locally:
     # build: .
     container_name: zeroclaw
+    command: daemon
     restart: unless-stopped
     
     environment:
